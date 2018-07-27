@@ -1,0 +1,47 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* ---------- Global Styles ----------------*/
+
+li {
+    list-style-type: none;
+    margin: 20px;
+    padding-left: 12px;
+    border-left: 6px solid #84b2e7;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 5px;
+    padding: 15px;
+}
+
+h2 {
+    font-size: 1.9em;
+    margin: 5px;
+    padding: 15px;
+}
+
+p {
+    padding: 15px;
+    margin: 5px;
+}
+
+/*---------------Header Styles ----------------*/
+
+#nav-links {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+#landpage-links {
+    float: left;
+}
+
+#social-links {
+    float: right
+}
