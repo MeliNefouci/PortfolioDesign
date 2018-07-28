@@ -9,9 +9,6 @@
 
 li {
     list-style-type: none;
-    margin: 20px;
-    padding-left: 12px;
-    border-left: 6px solid #84b2e7;
 }
 
 h1 {
@@ -31,17 +28,51 @@ p {
     margin: 5px;
 }
 
-/*---------------Header Styles ----------------*/
-
-#nav-links {
-    background-color: #ffffff;
-    color: #000000;
+a {
+    text-decoration: none;
+    color: #e41f98;
+    transition: .5s;
 }
 
+a:hover {
+    background: #e67a9a;
+    color: #fff;
+}
+
+/*---------------Header Styles ----------------*/
+
+header {
+    height: 450px;
+    background: linear-gradient(rgba(240, 8, 124, 0.555), rgba(56, 6, 240, 0.733), transparent), url("https://images.pexels.com/photos/34676/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") no-repeat center; 
+    background-size: cover;
+
+    box-shadow: 1px 3px 1px 0px #0000006e
+}
+nav {
+    overflow: hidden;
+    margin-bottom: 157px;
+}
+nav li {
+    display: inline-block; 
+}
+nav li a {
+    padding: 25px;
+    display: block;
+    margin: -2px;
+}
 #landpage-links {
     float: left;
 }
-
 #social-links {
-    float: right
+    float: right;
 }
+#greeting {
+   text-align: center;
+   color: #fff;
+   margin: 0px;
+   padding: 0px;
+}
+#about {
+    margin-top: 200px;
+}
+
